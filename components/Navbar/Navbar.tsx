@@ -27,10 +27,12 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.left}>
-        <div className={styles.logo}>
-          <span className={styles.logoMark}>Т</span>
-          Тест
-        </div>
+        <Link href="/">
+          <div className={styles.logo}>
+            <span className={styles.logoMark}>Т</span>
+            Тест
+          </div>
+        </Link>
       </div>
 
       <div className={styles.center}>
